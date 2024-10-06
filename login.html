@@ -1,0 +1,76 @@
+<html>
+<head>
+    <title>Twitter Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            /* text-align: center; */
+            max-width: 400px;
+            width: 100%;
+        }
+        .twitter-logo {
+            color: #1DA1F2;
+            font-size: 3rem;
+        }
+        .login-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 1rem 0;
+        }
+        .login-input {
+            width: 100%;
+            padding: 0.75rem;
+            margin: 0.5rem 0;
+            border: 1px solid #ddd;
+            border-radius: 0.25rem;
+            font-size: 1rem;
+        }
+        .login-button {
+            width: 100%;
+            padding: 0.75rem;
+            margin: 1rem 0;
+            background-color: #1DA1F2;
+            color: #ffffff;
+            border: none;
+            border-radius: 1.5rem;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        .login-button:hover {
+            background-color: #0d8de1;
+        }
+        .login-links {
+            font-size: 0.875rem;
+            color: #1DA1F2;
+            text-decoration: none;
+        }
+        .login-links:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <i class="fab fa-twitter twitter-logo"></i>
+        <div class="login-title">Log in to Twitter</div>
+        <input type="text" class="login-input" placeholder="Phone number, email address">
+        <input type="password" class="login-input" placeholder="Password">
+        <button class="login-button">Log In</button>
+        <div>
+            <a href="#" class="login-links">Forgot password?</a>
+        </div>
+        <div>
+            <a href="#" class="login-links">Sign up to Twitter</a>
+        </div>
+    </div>
+</body>
+</html>

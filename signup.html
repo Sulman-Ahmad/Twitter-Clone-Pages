@@ -1,0 +1,96 @@
+<html>
+<head>
+    <title>Create an Account</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            /* text-align: center; */
+            max-width: 610px;
+            width: 100%;
+        }
+        .container i {
+            color: #1DA1F2;
+            font-size: 2em;
+        }
+        .container h1 {
+            font-size: 1.5em;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        .container input[type="text"], .container input[type="tel"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        .container a {
+            color: #1DA1F2;
+            text-decoration: none;
+            display: block;
+            margin: 10px 0;
+        }
+        .container .dob {
+            text-align: left;
+            margin: 20px 0;
+        }
+        .container .dob p {
+            margin: 0;
+            font-size: 0.9em;
+            color: #555;
+        }
+        .container select {
+            width: 32%;
+            padding: 10px;
+            margin: 10px 1%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        .container button {
+            width: 100%;
+            padding: 10px;
+            margin: 20px 0;
+            background-color: #1DA1F2;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 1em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <i class="fab fa-twitter"></i>
+        <h1>Create an account</h1>
+        <input type="text" placeholder="Name">
+        <input type="tel" placeholder="Phone number">
+        <a href="#">Use email</a>
+        <div class="dob">
+            <b>Date of birth</b>
+            <p>Facilisi sem pulvinar velit nunc, gravida scelerisque amet nibh sit. Quis bibendum ante phasellus metus, magna lacinia sed augue. Odio enim nascetur leo mauris vel eget. Pretium id ullamcorper blandit viverra dignissim eget tellus. Nibh mi massa in molestie a sit. Elit congue.</p>
+            <select>
+                <option>Month</option>
+            </select>
+            <select>
+                <option>Day</option>
+            </select>
+            <select>
+                <option>Year</option>
+            </select>
+        </div>
+        <button>Next</button>
+    </div>
+</body>
+</html>
